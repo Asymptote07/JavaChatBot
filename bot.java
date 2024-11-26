@@ -86,11 +86,11 @@ class ChatBot extends JFrame{
 							replymeth("I'm Fine" + "\n" + "How are you?");
 						}
 					}
-					else if(s.contains("what is your name")) {
+					else if(s.contains("your name")) {
 //						int rando = (int)Math.random()*3 + 1;
 						if(rando <= 2)
-						replymeth("It's Malhar, but I would prefer whatever you would like to call me!");
-						else replymeth("Malhar");
+						replymeth("No name, but I would prefer whatever you would like to call me!");
+						else replymeth("...");
 					}
 					else if(s.contains("gender")) {
 //						int rando = (int)Math.random()*3 + 1;
@@ -104,13 +104,6 @@ class ChatBot extends JFrame{
 						{
 							replymeth("Kinda weird asking a bot for gender" + "\n" +  "Anyhow, I am a guy");
 						}
-					}
-					else if(s.contains("love you")) {
-//						int rando = (int)Math.random()*3 + 1;
-						if(rando == 1)
-						replymeth("I'm Feeling Shy :) Love you to");
-						else 
-							replymeth("Much Love");
 					}
 					else if(s.contains("bye")) {
 //						int rando = (int)Math.random()*3 + 1;
@@ -157,5 +150,3 @@ public class bot{
 	}
 }
 	
-
-
